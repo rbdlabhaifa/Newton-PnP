@@ -19,7 +19,7 @@ For a closed-source version of Newton-PnP for commercial purposes, please contac
 
 If you use Newton-PnP in an academic work, please cite:
 
-  @misc{https://doi.org/10.48550/arxiv.2203.02686,
+  @misc{https://doi.org/10.48550/arxiv.2203.02686},
   doi = {10.48550/ARXIV.2203.02686},
   
   url = {https://arxiv.org/abs/2203.02686},
