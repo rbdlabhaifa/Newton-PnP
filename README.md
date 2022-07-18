@@ -12,7 +12,7 @@ Real-time Visual Navigation for Autonomous Toy-Drones**. *The 2022 IEEE/RSJ Inte
 
 # 1. License
 
-Newton-PnP is released under a [].
+Newton-PnP is released under a ...
 For a list of all code/library dependencies (and associated licenses), please see [Dependencies.md](https://github.com/rbdlabhaifa/Neton-PnP/Dependencies.md).
 
 For a closed-source version of Newton-PnP for commercial purposes, please contact the author: ibrahim.jub@gmail.com.
