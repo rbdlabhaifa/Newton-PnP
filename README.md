@@ -18,6 +18,7 @@ For a closed-source version of Newton-PnP for commercial purposes, please contac
 If you use Newton-PnP in an academic work, please cite:
 ```
   @misc{https://doi.org/10.48550/arxiv.2203.02686,
+  
   doi = {10.48550/ARXIV.2203.02686},
   
   url = {https://arxiv.org/abs/2203.02686},
@@ -25,7 +26,7 @@ If you use Newton-PnP in an academic work, please cite:
   author = {Jubran, Ibrahim and Fares, Fares and Alfassi, Yuval and Ayoub, Firas and Feldman, Dan},
   
   keywords = {Computer Vision and Pattern Recognition (cs.CV), Robotics (cs.RO), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  
+ 
   title = {Newton-PnP: Real-time Visual Navigation for Autonomous Toy-Drones},
   
   publisher = {arXiv},
