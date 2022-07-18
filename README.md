@@ -18,7 +18,7 @@ For a list of all code/library dependencies (and associated licenses), please se
 For a closed-source version of Newton-PnP for commercial purposes, please contact the author: ibrahim.jub@gmail.com.
 
 If you use Newton-PnP in an academic work, please cite:
-
+```
   @misc{https://doi.org/10.48550/arxiv.2203.02686,
   doi = {10.48550/ARXIV.2203.02686},
   
@@ -35,8 +35,8 @@ If you use Newton-PnP in an academic work, please cite:
   year = {2022},
   
   copyright = {arXiv.org perpetual, non-exclusive license}
-  
-
+  }
+```
 # 2. Prerequisites
 We have tested the library in **Ubuntu 20.04**, and **Raspberry Pi OS** but it should be easy to compile in other platforms.
 
