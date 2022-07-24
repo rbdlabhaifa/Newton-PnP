@@ -47,7 +47,7 @@ Tested with C++17.
 
 ## OpenCV
 We use [OpenCV](http://opencv.org) to manipulate images and features. Dowload and install instructions can be found at: http://opencv.org.
-Tested with OpenCV 3.4.16.
+**Tested with OpenCV 3.4.16**.
 
 ## Eigen3
 Download and install instructions can be found at: http://eigen.tuxfamily.org. **tested with Eigen 3.3.0**.
