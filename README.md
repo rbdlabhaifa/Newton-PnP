@@ -43,6 +43,7 @@ If you use Newton-PnP in an academic work, please cite:
 We have tested the library in **Ubuntu 20.04**, and **Raspberry Pi OS** but it should be easy to compile in other platforms.
 
 ## C++17 or C++0x Compiler
+Tested with C++17.
 
 ## OpenCV
 We use [OpenCV](http://opencv.org) to manipulate images and features. Dowload and install instructions can be found at: http://opencv.org.
