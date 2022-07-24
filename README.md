@@ -42,29 +42,28 @@ If you use Newton-PnP in an academic work, please cite:
 # 2. Prerequisites
 We have tested the library in **Ubuntu 20.04**, and **Raspberry Pi OS** but it should be easy to compile in other platforms.
 
-## C++11 or C++0x Compiler
-We use the new thread and chrono functionalities of C++11.
+## C++17 or C++0x Compiler
 
 ## OpenCV
-We use [OpenCV](http://opencv.org) to manipulate images and features. Dowload and install instructions can be found at: http://opencv.org. **Required at leat 2.4.3. Tested with OpenCV 2.4.11 and OpenCV 3.2**.
+We use [OpenCV](http://opencv.org) to manipulate images and features. Dowload and install instructions can be found at: http://opencv.org.
+Tested with OpenCV 3.4.16.
 
 ## Eigen3
-Required by g2o (see below). Download and install instructions can be found at: http://eigen.tuxfamily.org. **Required at least 3.1.0**.
+Download and install instructions can be found at: http://eigen.tuxfamily.org. **tested with Eigen 3.3.0**.
 
-# 3. Building ORB-SLAM2 library and examples
+# 3. Building Newton-PnP library and examples
 
 Clone the repository:
 ```
-git clone https://github.com/raulmur/ORB_SLAM2.git ORB_SLAM2
+git clone https://github.com/rbdlabhaifa/Newton-PnP.git
 ```
 
-We provide a script `build.sh` to build the *Thirdparty* libraries and *ORB-SLAM2*. Please make sure you have installed all required dependencies (see section 2). Execute:
+Please make sure you have installed all required dependencies (see section 2). Execute:
 ```
-cd ORB_SLAM2
-chmod +x build.sh
-./build.sh
+mkdir build
+cd build
+cmake ..
+make
 ```
 
-This will create **libORB_SLAM2.so**  at *lib* folder and the executables **mono_tum**, **mono_kitti**, **rgbd_tum**, **stereo_kitti**, **mono_euroc** and **stereo_euroc** in *Examples* folder.
-
-# 4. Monocular Examples
+# 4. Examples
