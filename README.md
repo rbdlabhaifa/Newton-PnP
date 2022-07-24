@@ -3,7 +3,7 @@
 
 The Perspective-n-Point problem aims to estimate the relative pose between a calibrated monocular camera and a known 3D model, by aligning pairs of 2D captured image points to their corresponding 3D points in the model. We suggest an algorithm that runs on weak IoT devices in real-time but still provides provable theoretical guarantees for both running time and correctness. Existing solvers provide only one of these requirements.
 
-<a href="https://youtu.be/AT-H0GUlZDo" target="_blank"><alt="Newton-PnP" width="240" height="180" border="10" /></a>
+<a href="https://youtu.be/AT-H0GUlZDo" target="_blank"> <img src="https://youtu.be/AT-H0GUlZDo/0.jpg" /></a>
 
 ### Related Publications:
 
