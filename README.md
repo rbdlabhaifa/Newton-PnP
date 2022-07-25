@@ -16,28 +16,15 @@ Newton-PnP is released under a MIT License.
 
 For a list of all code/library dependencies (and associated licenses), please see [Dependencies.md](https://github.com/rbdlabhaifa/Neton-PnP/Dependencies.md).
 
-For a closed-source version of Newton-PnP for commercial purposes, please contact the author: ibrahim.jub@gmail.com.
-
+Our work was accepted to The 2022 IEEE/RSJ International Conference on Intelligent Robotics and Systems (IROS'22).
 If you use Newton-PnP in an academic work, please cite:
 ```
-  @misc{https://doi.org/10.48550/arxiv.2203.02686,
-  
-  doi = {10.48550/ARXIV.2203.02686},
-  
-  url = {https://arxiv.org/abs/2203.02686},
-  
-  author = {Jubran, Ibrahim and Fares, Fares and Alfassi, Yuval and Ayoub, Firas and Feldman, Dan},
-  
-  keywords = {Computer Vision and Pattern Recognition (cs.CV), Robotics (cs.RO), FOS: Computer and information sciences, FOS: Computer and information sciences},
- 
-  title = {Newton-PnP: Real-time Visual Navigation for Autonomous Toy-Drones},
-  
-  publisher = {arXiv},
-  
-  year = {2022},
-  
-  copyright = {arXiv.org perpetual, non-exclusive license}
-  }
+  @article{jubran2022newton,
+  title={Newton-PnP: Real-time Visual Navigation for Autonomous Toy-Drones},
+  author={Jubran, Ibrahim and Fares, Fares and Alfassi, Yuval and Ayoub, Firas and Feldman, Dan},
+  journal={arXiv preprint arXiv:2203.02686},
+  year={2022}
+}
 ```
 # 2. Prerequisites
 We have tested the library in **Ubuntu 20.04**, and **Raspberry Pi OS** but it should be easy to compile in other platforms.
