@@ -1,22 +1,20 @@
 # Newton-PnP
 **Authors:** [Ibrahim Jubran](https://scholar.google.com/citations?hl=en&user=6OOalGkAAAAJ), [Fares Fares](https://scholar.google.com/citations?user=Wm4eHwgAAAAJ&hl=en&oi=ao), [Yuval Alfassi](https://dblp.org/pid/295/6748.html), [Firas Ayoub](http://doriangalvez.com/) and [Dan Feldman](https://scholar.google.com/citations?user=67QZN0gAAAAJ&hl=en) from the [Robotics & Big Data Labs](https://www.rbd-labs.com).
 
-The Perspective-n-Point problem aims to estimate the relative pose between a calibrated monocular camera and a known 3D model, by aligning pairs of 2D captured image points to their corresponding 3D points in the model. We suggest an algorithm that runs on weak IoT devices in real-time but still provides provable theoretical guarantees for both running time and correctness. Existing solvers provide only one of these requirements.
+The Perspective-n-Point problem aims to estimate the relative pose between a calibrated monocular camera and a known 3D model, by aligning pairs of 2D captured image points to their corresponding 3D points in the model.
+We suggest an algorithm that runs on weak IoT devices in real-time but still provides provable theoretical guarantees for both running time and correctness. Existing solvers provide only one of these requirements.
+Our main motivation was to turn the popular DJI's Tello Drone (<90gr, <$100) into an autonomous drone that navigates in an indoor environment with no external human/laptop/sensor, by simply attaching a Raspberry PI Zero (<9gr, <$25) to it. This tiny micro-processor takes as input a real-time video from a tiny RGB camera, and runs our PnP solver on-board. Extensive experimental results, open source code, and a demonstration video are included.
+
+This work was accepted to The **2022 IEEE/RSJ International Conference on Intelligent Robotics and Systems (IROS'22) [PDF](https://arxiv.org/pdf/2203.02686.pdf)**.
 
 <a href="https://youtu.be/AT-H0GUlZDo" target="_blank"> <img src="http://img.youtube.com/vi/AT-H0GUlZDo/0.jpg" alt="Newton PnP" width="300" height="240" border="10"/></a>
-
-### Related Publications:
-
-Ibrahim Jubran, Fares Fares, Yuval Alfassi, Firas Ayoub and Dan Feldman. **Newton-PnP:
-Real-time Visual Navigation for Autonomous Toy-Drones**. *The 2022 IEEE/RSJ International Conference on Intelligent Robotics and Systems (IROS'22) **[PDF](https://arxiv.org/pdf/2203.02686.pdf)**.
 
 # 1. License
 
 Newton-PnP is released under a MIT License.
 
-For a list of all code/library dependencies (and associated licenses), please see [Dependencies.md](https://github.com/rbdlabhaifa/Neton-PnP/Dependencies.md).
+For a list of all code/library dependencies (and associated licenses), please see [Dependencies.md](https://github.com/rbdlabhaifa/Newton-PnP/Dependencies.md).
 
-Our work was accepted to The 2022 IEEE/RSJ International Conference on Intelligent Robotics and Systems (IROS'22).
 If you use Newton-PnP in an academic work, please cite:
 ```
   @article{jubran2022newton,
