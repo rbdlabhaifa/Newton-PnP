@@ -13,7 +13,6 @@
 #include <string>
 #include <vector>
 
-
 std::vector<cv::Point2d> Generate2DPoints();
 std::vector<cv::Point3d> Generate3DPoints();
 
@@ -114,16 +113,6 @@ int main(){
     }
 
     std::cout << frame_pose.t << std::endl;
-
-    cv::solvePnP(objectPoints, undist_scene, cameraMatrix, distCoeffs, rvec, tvec);
-
-    cv::Mat auxRinv = Mat::eye(3,3,CV_32F);
-    cv::Mat Rc1inv;
-    cv::Rodrigues(rvec,auxRinv);
-    auxRinv = auxRinv.inv();
-    cv::Rodrigues(auxRinv, Rc1inv);
-    std::cout << auxRinv << std::endl;
-    std::cout << tvec << std::endl;
 
     return 0;
 }
