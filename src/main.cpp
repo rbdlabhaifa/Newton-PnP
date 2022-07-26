@@ -99,10 +99,6 @@ int main(){
     RansacOptimalPnP RansacPnPSolver(min_iterations, max_iterations, min_inliers, reprojection_err_th, cameraMatrix, distCoeffs);
 
     FramePose frame_pose;
-    std::vector<cv::Point2d> scene;
-    std::vector<cv::Point3d> obj;
-    std::vector<bool> is_inliers;
-    int inliers_cnt_result;
     std::vector<cv::Point2d> undist_scene;
     cv::undistortPoints(imagePoints, undist_scene, cameraMatrix, distCoeffs, cv::Mat(), cameraMatrix);
 
