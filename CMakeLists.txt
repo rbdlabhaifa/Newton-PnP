@@ -30,6 +30,7 @@ set(sample_pnplib
 
 set(src_files
 	${src_dir}/RansacOptimalPnP/RansacOptimalPnP.cpp
+        ${src_dir}/NewtonPnP/NewtonPnP.cpp
 	${src_dir}/CSVReader/CSVReader.cpp
 	)
 
@@ -38,7 +39,8 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 include_directories(${EIGEN3_INCLUDE_DIR})
 include_directories(${src_dir})
 include_directories(${src_dir}/Utils_pnp
-                    ${src_dir}/PnP)
+                    ${src_dir}/PnP
+                    ${src_dir}/NewtonPnP)
 
 add_executable(NPnP ${src_dir}/main.cpp 
                     ${src_files}
