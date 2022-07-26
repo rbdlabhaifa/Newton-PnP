@@ -53,3 +53,7 @@ make
 ```
 
 # 4. Examples
+```
+cd build
+./NPnP
+```
