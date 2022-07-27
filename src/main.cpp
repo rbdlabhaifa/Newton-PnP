@@ -52,25 +52,25 @@ std::vector<cv::Point3d> Generate3DPoints(){
 
     double x,y,z;
 
-    x=.5;y=.5;z=-.5;
+    x=.4;y=.8;z=-.9;
     points.push_back(cv::Point3d(x,y,z));
 
     x=.5;y=.5;z=.5;
     points.push_back(cv::Point3d(x,y,z));
 
-    x=-.5;y=.5;z=.5;
+    x=-.35;y=.5;z=.15;
     points.push_back(cv::Point3d(x,y,z));
 
-    x=-.5;y=.5;z=-.5;
+    x=-.51;y=.56;z=-1.5;
     points.push_back(cv::Point3d(x,y,z));
 
-    x=.5;y=-.5;z=-.5;
+    x=.5;y=-5.5;z=-3.5;
     points.push_back(cv::Point3d(x,y,z));
 
-    x=-.5;y=-.5;z=-.5;
+    x=-1.5;y=-2.35;z=-1.15;
     points.push_back(cv::Point3d(x,y,z));
 
-    x=-.5;y=-.5;z=.5;
+    x=.45;y=-.45;z=4.5;
     points.push_back(cv::Point3d(x,y,z));
 
     return points;
