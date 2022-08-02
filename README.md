@@ -37,6 +37,12 @@ We use [OpenCV](http://opencv.org) to manipulate images and features. Dowload an
 ## Eigen3
 Download and install instructions can be found at: http://eigen.tuxfamily.org. **tested with Eigen 3.3.0**.
 
+## Boost
+Install Boost free peer-reviewed portable C++ source libraries: https://www.boost.org/. 
+```
+sudo apt-get install libboost-all-dev
+```
+
 # 3. Building Newton-PnP library and examples
 
 Clone the repository:
