@@ -11,10 +11,6 @@ This work was accepted to The **2022 IEEE/RSJ International Conference on Intell
 
 # 1. License
 
-Newton-PnP is released under a MIT License.
-
-For a list of all code/library dependencies (and associated licenses), please see [Dependencies.md](https://github.com/rbdlabhaifa/Newton-PnP/Dependencies.md).
-
 If you use Newton-PnP in an academic work, please cite:
 ```
   @article{jubran2022newton,
